@@ -1,0 +1,87 @@
+/* Add a border to the left side of the <html> element */
+html {
+  border-left: 5px solid lightgray;
+}
+
+/* Set minimum height of <body> to 100% of viewport height and use sans-serif font */
+body {
+  min-height: 100%;
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Add padding to  <footer> */
+ footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem; 
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+/* Set color of <h1> to tomato */
+h1 {
+  color: tomato;
+}
+
+/* Set width of images to 100% */
+img {
+  width: 100%;
+}
+
+/* navigation style*/
+ul {
+  padding-top: 1rem;
+  padding-left: 0;
+  padding-bottom: 2rem;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* and set anchor colors */
+nav a {
+  color: lightgray; /* For main navigation */
+}
+
+footer nav a {
+  color: tomato; /* For footer navigation */
+}
+
+/* Style blog post titles */
+.blog-post-title {
+  font-size: larger;
+}
+
+/* Style 'continues...' anchor tags */
+#continuesLink {
+  display: flex;
+  justify-content: flex-end; 
+  font-weight: bold;
+  color: rgb(255, 99, 71);
+  margin-left: auto; 
+}
+
+/* Style <article> tags */
+article {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
+/* Use pseudo-element ::first-letter to style drop cap */
+article p::first-letter {
+  color: lightgray;
+  font-size: 5pc;
+}
+
+/* Style copyright */
+.copyright {
+  color: lightgray;
+}
+
+
+
+
+
+
